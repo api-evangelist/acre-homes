@@ -1,22 +1,76 @@
 aid: acre-homes
 name: Acre Homes
-description: Acre Homes is a company surfaced as a portfolio company of anthemis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Acre Homes is a North Carolina-based homeownership company whose mission is to "create the best
+  way to experience homeownership." Acre enables individuals to buy quality homes in desirable
+  neighborhoods while sharing in ownership appreciation and reducing costs, notably without requiring
+  traditional debt financing. Positioned in the wealth and asset management corner of fintech and
+  proptech, the company reframes owning a home as a less financially burdensome decision than the
+  conventional mortgage path, letting residents build equity through a shared-appreciation model
+  rather than a conventional debt-financed purchase. Acre Homes is an early-stage venture-backed
+  company and a portfolio company of Anthemis Group. It operates a consumer-facing homeownership
+  offering and does not currently publish a public developer program, API, or developer documentation;
+  this profile captures verified company identity and public links.
 url: https://raw.githubusercontent.com/api-evangelist/acre-homes/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.acrehomes.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - anthemis
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-is-api-provider: false
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Homeownership
+- Real Estate
+- Proptech
+- Fintech
+- Wealth And Asset Management
+- Shared Appreciation
+- North Carolina
 apis: []
+common:
+- type: Website
+  url: https://www.acrehomes.com/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/acrehomes2021/
+- type: Portfolio
+  url: https://www.anthemis.com/portfolio/acre-homes/
+- type: Features
+  data:
+  - 'Sector: Homeownership / wealth and asset management (fintech, proptech)'
+  - 'Model: Shared-appreciation homeownership without traditional debt financing'
+  - 'Mission: "Create the best way to experience homeownership"'
+  - 'HQ: North Carolina, United States'
+  - 'Stage: Early-stage venture'
+  - 'Investor: Anthemis Group (portfolio company)'
+  - 'API provider: No public developer program, API, or docs found (checked 2026-07-17)'
+  sources:
+  - https://www.anthemis.com/portfolio/acre-homes/
+  - https://www.linkedin.com/company/acrehomes2021/
+  updated: '2026-07-17'
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
